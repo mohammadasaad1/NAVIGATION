@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 16px;
+}
+
+
+.nav {
+    background-color: black;
+}
+
+.container{
+    width: 80% ;
+    margin: auto;
+}
+
+.image  {
+    float: left ; 
+   margin-top: 10px;
+}
+.container .image img {
+    width: 50%;
+}
+
+.nav .ls{
+    padding: 10px;
+    float: right;
+    
+}
+
+ul {
+    list-style-type: none ;
+}
+ul li{
+    float: left ;
+}
+
+
+.proto_{
+    text-align: center;
+    background-color: rgb(215, 196, 196);
+}
+.proto-item{
+    float: left;
+    width: 33.33%;
+    /* box sizing with border >> use padding to make spaces between elements */
+    padding-left : 10px ;
+}
+
+.proto-item img{
+    /* to collapse it */
+    display: block ;
+    width: 100%;
+}
+
+/* .proto_ .container{
+    background-color: rgb(6, 7, 6);
+} */
